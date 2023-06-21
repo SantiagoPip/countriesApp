@@ -5,6 +5,8 @@ import { ByCountyPageComponent } from './pages/by-county-page/by-county-page.com
 import { ByRegionPageComponent } from './pages/by-region-page/by-region-page.component';
 import { CountriesRoutingModule } from './countries-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { CountryTableComponent } from './components/country-table/country-table.component';
+import { CountryPageComponent } from './pages/country-page/country-page.component';
 
 
 
@@ -12,7 +14,9 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [
     ByCapitalPageComponent,
     ByCountyPageComponent,
-    ByRegionPageComponent
+    ByRegionPageComponent,
+    CountryTableComponent,
+    CountryPageComponent
   ],
   imports: [
     CommonModule,
